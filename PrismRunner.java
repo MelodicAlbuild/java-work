@@ -35,6 +35,7 @@ public class PrismRunner {
         out.println("Box SA: " + prism.SurfaceCalc());
         out.println("Box Total Edge: " + prism.EdgeCalc());
         out.print("Sphere Volume: ");
+        // Formatting (%.3f): % = All numbers before the decimal | 3f = 3 decimals after the decimal point
         out.printf("%.3f", prism.SphereCalc());
     }
 }

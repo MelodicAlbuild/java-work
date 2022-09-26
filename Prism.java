@@ -48,15 +48,7 @@ public class Prism {
     }
 
     private int SmallestValue(int a, int b, int c) {
-        int smallest;
-        if(a<b && a<c) {
-            smallest = a;
-        } else if (b<c) {
-            smallest = b;
-        } else {
-            smallest = c;
-        }
-        return smallest;
+        return Math.min(a, Math.min(b, c));
     }
 
 }
